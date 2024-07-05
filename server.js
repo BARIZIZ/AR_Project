@@ -6,8 +6,8 @@ app.use(express.static(path.join(__dirname, "/")));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.get('/', (req, res)=> {
-res.render('index');
-}); 
+res.render('index1');
+});  
 app.listen(8080, () => {
 console.log("Listening on http://localhost:8080");
 });
